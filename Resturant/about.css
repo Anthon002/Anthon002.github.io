@@ -1,0 +1,167 @@
+body{
+    background-image: linear-gradient(rgba(4, 10, 31, 0.8),rgba(4, 10, 31, 1)),url(background.webp);
+    background-attachment: fixed;
+}
+.container{
+    position: relative;
+    padding: 200px;
+}
+.logo{
+    position:absolute;
+    left:0;
+    margin-left: 10vw;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    font-weight: 700;
+    color:#fffdde;
+    display: flex;
+    
+}
+.container2{
+    position: relative;
+}
+.mission{
+    position: absolute;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20vh;
+    margin-left: 20vw;
+    padding:20px;
+    border:2px solid rgba(216, 184, 184);
+    width:30vw;
+    background-color: rgba(218, 245, 216, 0.8);
+    transition: 500ms;
+}
+.mission:hover{
+    z-index:1;
+    padding:100px;
+    background-color: rgba(218, 245, 216, 1);
+    font-weight: 500;
+    font-family: cursive;
+}
+.vision{
+    position: absolute;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20vh;
+    margin-left: 53vw;
+    padding:20px;
+    border:2px solid rgba(216, 184, 184);
+    width:30vw;
+    background-color: rgba(240, 223, 202, 0.8);
+    transition: 500ms;
+}
+.vision:hover{
+    padding:100px;
+    z-index: 1;
+    background-color: rgba(240, 223, 202, 1);
+    font-weight: 500;
+    font-family: cursive;
+}
+.value{
+    position: absolute;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 46vh;
+    margin-left: 53vw;
+    padding:20px;
+    border:2px solid rgba(216, 184, 184);
+    width:30vw;
+    background-color: rgba(202, 212, 240, 0.7);
+    transition: 500ms;
+}
+.value:hover{
+    padding:100px;
+    font-family: cursive;
+    font-weight: 500;
+    z-index: 1;
+    background-color: rgba(202, 212, 240, 1);
+
+}
+.ratings{
+    position: absolute;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 58vh;
+    margin-left: 20vw;
+    padding:20px;
+    border:2px solid rgba(216, 184, 184);
+    width:30vw;
+    background-color: rgba(240, 223, 202, 0.8);
+    transition: 500ms;
+}
+.rating{
+    position: relative;
+    width: 30%;
+}
+.ratings:hover{
+    z-index: 1;
+    padding: 100px;
+    background-color: rgba(240, 223, 202, 1);
+    font-family: cursive;
+    font-weight: 500;
+
+}
+@media(max-width:1300px){
+    .mission{
+     font-size: 10px;   
+     margin-left: 15vw;
+    }
+    .vision{
+        font-size:14px;
+    }
+    .ratings{
+        font-size: 15px;
+        margin-top: 47vh;
+        margin-left: 14vw;
+    }
+    .value{
+        font-size: 14px;
+    }
+}
+@media(max-width:375px){
+    .mission{
+        margin-left: 5vw;
+        margin-top: 10vh;
+        padding: 10px;
+    }
+    .vision{
+        margin-left: 41vw;
+        padding:10px;
+        margin-top: 10vh;
+    }
+    .ratings{
+        margin-left: 5vw;
+        padding:10px;
+        margin-top: 38vh;  
+    }
+    .value{
+        margin-left: 41vw;
+        padding:10px;
+        margin-top: 36vh; 
+    }
+}
+@media(max-height:375px){
+    .mission{
+        margin-left: 5vw;
+        margin-top: 10vh;
+        padding: 10px;
+    }
+    .vision{
+        margin-left: 41vw;
+        padding:10px;
+        margin-top: 10vh;
+    }
+    .ratings{
+        margin-left: 5vw;
+        padding:5px;
+        margin-top: 46vh; 
+        line-height: 12px;  
+    }
+    .value{
+        margin-left: 41vw;
+        padding:5px;
+        margin-top: 46vh; 
+        line-height: 12px;
+    }
+}

@@ -1,0 +1,64 @@
+body{
+    background-image: linear-gradient(rgba(4, 10, 31, 0.8),rgba(4, 10, 31, 1)),url(background.webp);
+    background-attachment: fixed;
+}
+.container{
+    position: relative;
+    background-color: rgba(234, 241, 243,0.9);
+    left: 0%;
+    top: 25vh;
+    padding: 20px;
+    border: 5px solid rgb(77, 65, 67);
+    border-radius: 10px;
+    width: 50%;
+    font-size: 120%;
+}
+.logo{
+    position:absolute;
+    left:0;
+    margin-left: 10vw;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    font-weight: 700;
+    color:#fffdde;
+    display: flex;
+    
+}
+a{
+    text-decoration: none;
+    color: #fffdde;
+}
+
+.address{
+    color: #1d1b19;
+
+}
+.facebook{
+    position: relative;
+    min-width: 5vw;
+    width:3vw;
+    padding-right: 50px;
+    transition: 500ms;
+}
+.facebook:hover{
+    width: 7vw;
+}
+.insta{
+    position: relative;
+    min-width: 5vw;
+    width: 3vw;
+    padding-right: 50px;
+    transition: 500ms;
+}
+.insta:hover{
+    width: 7vw;
+}
+.twitter{
+    position: relative;
+    min-width: 5vw;
+    width: 3vw;
+    transition: 500ms;
+}
+.twitter:hover{
+    width: 7vw;
+}

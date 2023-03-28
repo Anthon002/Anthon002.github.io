@@ -1,0 +1,60 @@
+*{
+    font-family: cursive;
+}
+body{
+    background-image: linear-gradient(rgba(4, 10, 31, 0.8),rgba(4, 10, 31, 1)),url(background.webp);
+    background-attachment: fixed;
+}
+
+.container{
+    position: relative;
+    background-color: rgba(234, 241, 243,0.6);
+    left: 20%;
+    top: 10vh;
+    padding: 20px;
+    border: 5px solid rgb(77, 65, 67);
+    border-radius: 10px;
+    width: 60%;
+    font-size: 120%;
+}
+.menu_t{
+    position: relative;
+    left: 36%;
+    font-weight: 700;
+    font-size: 120%;
+    color: #ffffff;
+}
+.Main{
+    position: relative;
+    background-color: rgb(224, 95, 95);
+    padding: 20px;
+    left: 10%;
+    color: #ffffff;
+    border: 5px dotted rgb(216, 194, 245);
+}
+.td_main{
+    border: 4px solid rgb(252, 180, 180);
+}
+
+.logo{
+    position:absolute;
+    left:0;
+    margin-left: 10vw;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    font-weight: 700;
+    color:#fffdde;
+    display: flex;
+    
+}
+.dessert{
+    position: relative;
+    left: 10%;
+    padding: 20px;
+    color: #5a5946;
+    background-color: pink;
+    border: 5px dotted rgb(200, 245, 248);
+}
+.td_dessert{
+    border: 5px solid rgb(158, 195, 212);
+}
