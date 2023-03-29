@@ -80,6 +80,9 @@ body{
     list-style-type: none;
     margin-left: 6em;
 }
+.nav .ham{
+    display: none;
+}
 .nav li{
     float:left;
     margin-right:4em;
@@ -163,4 +166,41 @@ nav ul a li:hover{
     padding-left:10px;
     color:rgb(229, 249, 252);
     font-weight: 700;
+}
+@media screen and (max-width: 767px){
+    .navDiv{
+        display: block;
+    }
+    .navDiv .logo .imgL{
+        position: absolute;
+        left: 8px;
+        width:23vw;
+    }
+    .search .s{
+        position: absolute;
+        left:20px;
+        top:15vh;
+    }
+    .search .d{
+        margin-right: -20vh;
+        margin-top:10vh;
+    }
+    .searchIcon{
+        position: absolute;
+        display:none;
+    }
+    .logo .words{
+        position:absolute;
+        margin-left: 25vw;
+        margin-top: 5vh;
+    }
+    .nav li{
+        display: none;
+    }
+    .nav .ham{
+        display:block;
+        cursor: pointer;
+        position: absolute;
+        left:10px;
+    }
 }
