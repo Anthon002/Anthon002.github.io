@@ -58,3 +58,27 @@ body{
 .td_dessert{
     border: 5px solid rgb(158, 195, 212);
 }
+@media screen and (max-width:767px) {
+    .container{
+        display: grid;
+        justify-self: center;
+        justify-items: center;
+        position: absolute;
+        width:fit-content;
+        left:0;   
+        
+    }
+    .Main{
+        position: relative;
+        font-size: 10px;
+        left:-10px;
+    }
+    .dessert{
+        position: relative;
+        font-size: 10px;
+        left:-10px;
+    }
+    .menu_t{
+        margin-left: -65vw;
+    }
+}
